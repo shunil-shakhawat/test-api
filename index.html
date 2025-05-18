@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Displaying Code Snippet</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto; /* Add horizontal scroll for narrow screens */
+        }
+        code {
+            font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>REVE Chat Code Snippet</h1>
+
+    <p>Here is the code snippet you requested to display:</p>
+
+    <pre><code>&lt;!-- Start of REVE Chat Script--&gt;
+&lt;script type='text/javascript'&gt;
+ window.$_REVECHAT_API || (function(d, w) { var r = $_REVECHAT_API = function(c) {r._.push(c);}; w.__revechat_account='3361101';w.__revechat_version=2;
+   r._= []; var rc = d.createElement('script'); rc.type = 'text/javascript'; rc.async = true; rc.setAttribute('charset', 'utf-8');
+   rc.src = ('https:' == document.location.protocol ? 'https://' : 'http://')+'static.revechat.com'+'/widget/scripts/new-livechat.js?'+new Date().getTime();
+   var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(rc, s);
+ })(document, window);
+&lt;/script&gt;
+&lt;!-- End of REVE Chat Script --&gt;</code></pre>
+
+    <p>This code snippet is displayed as raw text using the <code>&lt;pre&gt;</code> and <code>&lt;code&gt;</code> tags in HTML and by escaping the angle brackets.</p>
+
+</body>
+</html>
